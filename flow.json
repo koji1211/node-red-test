@@ -1,1 +1,49 @@
-[{"id":"b04b9a65.4e3738","type":"tab","label":"フロー 1","disabled":false,"info":""},{"id":"656cae26.054c","type":"twitter-credentials","z":0,"screen_name":"aaaaa"},{"id":"34c55d2d.1ae012","type":"inject","z":"b04b9a65.4e3738","name":"","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":120,"y":60,"wires":[["d40bd77.9327d28"]]},{"id":"d40bd77.9327d28","type":"debug","z":"b04b9a65.4e3738","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","x":200,"y":140,"wires":[]}]
+[
+    {
+        "id": "b04b9a65.4e3738",
+        "type": "tab",
+        "label": "フロー 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "656cae26.054c",
+        "type": "twitter-credentials",
+        "z": 0,
+        "screen_name": "aaaaa"
+    },
+    {
+        "id": "34c55d2d.1ae012",
+        "type": "inject",
+        "z": "b04b9a65.4e3738",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "d40bd77.9327d28"
+            ]
+        ]
+    },
+    {
+        "id": "d40bd77.9327d28",
+        "type": "debug",
+        "z": "b04b9a65.4e3738",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 200,
+        "y": 140,
+        "wires": []
+    }
+]
